@@ -1,6 +1,6 @@
 # RE2HD Builder
 
-Self-contained builder for the classic PC edition: feed it the disc image, it applies the community HD texture and audio mod archives, and assembles a ready-to-run build folder. The packaged app embeds everything (7-Zip, all mod archives, menu music) into a single portable executable — no searching for files, no external tools needed.
+Self-contained builder for the classic PC edition: feed it the disc image, it applies the community HD texture and audio mod archives, and assembles a ready-to-run build folder. The packaged app embeds everything (7-Zip, all mod archives, menu music) into a single portable executable. No searching for files, no external tools needed.
 
 ## Features
 
@@ -12,7 +12,7 @@ Self-contained builder for the classic PC edition: feed it the disc image, it ap
 
 ## Config reminder (important)
 
-In the classic REbirth configuration menu, **do not enable texture filtering** with these HD textures. Leave texture filtering / smoothing **off** — otherwise the HD texture packs render blurred instead of crisp.
+In the classic REbirth configuration menu, **do not enable texture filtering** with these HD textures. Leave texture filtering / smoothing **off**, otherwise the HD texture packs render blurred instead of crisp.
 
 ## Build
 
@@ -36,10 +36,10 @@ The pack tool embeds `tools/7z.exe`, `tools/7z.dll`, the six mod archives, the m
 
 ## Repository layout
 
-- `src/` — app (GUI), build pipeline, archive layer, embedded-payload engine, tracker music player
-- `src/bin/` — `pack` (embed payloads into an exe), `headless` (no-UI end-to-end run)
-- `assets/` — window/exe icon, retro font, Windows resource script
-- `tools/` — 7-Zip binaries used by the (re)pack step
+- `src/`: app (GUI), build pipeline, archive layer, embedded-payload engine, tracker music player
+- `src/bin/`: `pack` (embed payloads into an exe), `headless` (no-UI end-to-end run)
+- `assets/`: window/exe icon, retro font, Windows resource script
+- `tools/`: 7-Zip binaries used by the (re)pack step
 
 ## Notes
 
