@@ -1,3 +1,4 @@
+<img width="1916" height="1667" alt="Screenshot 2026-09-14 000709" src="https://github.com/user-attachments/assets/3b266640-2b4e-426b-b5d3-0b665094dd67" />
 # RE2HD Builder
 
 Self-contained builder for the classic PC edition: feed it the disc image, it applies the community HD texture and audio mod archives, and assembles a ready-to-run build folder. The packaged app embeds everything (7-Zip, all mod archives, menu music) into a single portable executable. No searching for files, no external tools needed.
